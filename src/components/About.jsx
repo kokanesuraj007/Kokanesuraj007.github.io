@@ -16,7 +16,7 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                 <Box>
                     <Image 
                         boxSize='500px'
-                        objectFit='cover'
+                        // objectFit='cover'
                          borderRadius='20% 70%  30% 50%'   // borderRadius='20% 70% / 30% 50%'
                         ml={100}
                         src="Suraj_kokane.jpg" alt='Suraj Kokane' />
