@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+
+*{
+  background-color: black;
+  font-family: "Montserrat", sans;
+}
+
 .App {
   text-align: center;
 }
