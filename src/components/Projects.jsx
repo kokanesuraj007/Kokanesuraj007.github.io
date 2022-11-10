@@ -2,6 +2,7 @@ import { Center, Container, Heading, Box, SimpleGrid, Image, Link, Text } from "
 import "./DownArrow.css";
 import { useMediaQuery } from '@chakra-ui/react';
 import "./Video.css";
+import GitHubCalendar from 'react-github-calendar'
 // import { useState } from "react";
 // import { DemoVideoOne, DemoVideoThree } from "./DemoVideo";
 import "./Projects.css";
@@ -207,6 +208,14 @@ export const Projects = ({ projectRef }) => {
                     </Center>
                 </Container>
                 }
+
+                <Center>
+                <Heading color='#6889FF' borderBottom='2px solid #C668FF' width={209} alignContent='center'>GitHub Calendar</Heading>
+            </Center>
+                <Center>
+               
+                <GitHubCalendar username="kokanesuraj007"/>
+                </Center>
         </>
     )
 };
