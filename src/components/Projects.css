@@ -56,3 +56,24 @@
     background: none;
     width: 350px;
 }
+
+.projectC{
+    min-width: 400px;
+    min-height: 215px;
+    border-radius: 20px;
+}
+
+.projectC:hover{
+    box-shadow: 0 0 8px #6889FF;
+}
+
+.git{
+    margin: auto;
+   min-height: 215px;
+    border-radius: 20px;
+
+}
+
+.git:hover{
+    box-shadow: 0 0 8px #6889FF;
+}

@@ -45,12 +45,12 @@ export const Skills = ({ skillsRef }) => {
                             <Text background='none' marginLeft='5px'>Npm</Text>
                         </Box>
                         <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
-                            <img className="skillsLogo" src="tailwindcss-icon.svg" alt="tailwind" />
-                            <Text background='none' marginLeft='5px'>Tailwind</Text>
+                            <img className="skillsLogo" src="typescript.svg" alt="tailwind" />
+                            <Text background='none' marginLeft='5px'>Typescript</Text>
                         </Box>
                         <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
-                            <img className="skillsLogo" src="highcharts.svg" alt="chart" />
-                            <Text background='none' marginLeft='5px'>Chart js</Text>
+                            <img className="skillsLogo" src="icons8-chakra-ui.svg" alt="chart" />
+                            <Text background='none' marginLeft='5px'>Chakra UI</Text>
                         </Box>
                     </SimpleGrid>
                 </Center> :
@@ -81,12 +81,12 @@ export const Skills = ({ skillsRef }) => {
                             <Text background='none' marginLeft='5px'>Npm</Text>
                         </Box>
                         <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
-                            <img className="skillsLogo" src="tailwindcss-icon.svg" alt="tailwind" />
-                            <Text background='none' marginLeft='5px'>Tailwind</Text>
+                            <img className="skillsLogo" src="typescript.svg" alt="tailwind" />
+                            <Text background='none' marginLeft='5px'>Typescript</Text>
                         </Box>
                         <Box background='linear-gradient(to bottom right, #6889FF, #C668FF)' color='black' display='flex' justifyContent='center' border='0px solid #6889FF'>
-                            <img className="skillsLogo" src="highcharts.svg" alt="chart" />
-                            <Text background='none' marginLeft='5px'>Chart js</Text>
+                            <img className="skillsLogo" src="icons8-chakra-ui.svg" alt="chart" />
+                            <Text background='none' marginLeft='5px'>Chakra UI</Text>
                         </Box>
                     </SimpleGrid>
                 </Center> }

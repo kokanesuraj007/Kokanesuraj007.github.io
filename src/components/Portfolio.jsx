@@ -5,11 +5,13 @@ import { useRef } from 'react';
 import { Projects } from "./Projects";
 import { Contact} from "./Contact";
 
+
 export const Portfolio = () => {
     const aboutRef = useRef(null);
     const skillsRef = useRef(null);
     const projectRef = useRef(null);
     const contactRef = useRef(null);
+  
 
     return(
         <div>
@@ -19,6 +21,7 @@ export const Portfolio = () => {
             <Skills skillsRef={skillsRef} />
             <Projects projectRef={projectRef} />
             <Contact aboutRef={aboutRef} contactRef={contactRef} />
+
         </div>
     );
 };

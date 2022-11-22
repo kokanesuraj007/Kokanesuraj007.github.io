@@ -70,14 +70,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>Projects</Box>
-                    <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
-                        onClick={() => {
-                            blogRef.current.scrollIntoView(
-                                {
-                                    behavior: "smooth",
-                                }
-                            )
-                        }}>Blogs</Box>
+                   
                     <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             contactRef.current.scrollIntoView(

@@ -35,7 +35,7 @@ export const Contact = ({ aboutRef, contactRef }) => {
                         <Link href="https://github.com/kokanesuraj007"
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="Github" data-front="Github"></Link>
-                            <Link href="https://drive.google.com/file/d/1Bb5zf65c9fqCU910wq0tZ2x0G1V5QkQ6/view"
+                            <Link href="https://drive.google.com/file/d/1g8hA5tckETl7pKa-3wExJ3S5Pzu_8QWF/view?usp=sharing"
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="Resume" data-front="Resume"></Link>
                     </SimpleGrid>
@@ -48,7 +48,7 @@ export const Contact = ({ aboutRef, contactRef }) => {
                         <Link href="https://github.com/kokanesuraj007"
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="Github" data-front="Github"></Link>
-                            <Link href="https://drive.google.com/file/d/1Bb5zf65c9fqCU910wq0tZ2x0G1V5QkQ6/view"
+                            <Link href="https://drive.google.com/file/d/1g8hA5tckETl7pKa-3wExJ3S5Pzu_8QWF/view?usp=sharing"
                             textDecoration='none' background='linear-gradient(to bottom right, #6889FF, #C668FF)' target='_blank'
                             color='black' p={8} border='2px solid #6889FF' class="btn-flip" data-back="Resume" data-front="Resume"></Link>
                         <Popover>

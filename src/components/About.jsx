@@ -31,7 +31,7 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                         A <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> based in India. A creative coder who specializes in MERN stack. I make it my mission to design pixel-perfect websites or applications with optimized code that run blazing fast.
                     </Text>
 
-                    <Link margin="auto" className='link' href="https://drive.google.com/file/d/1Bb5zf65c9fqCU910wq0tZ2x0G1V5QkQ6/view?usp=sharing" target='_blank'>
+                    <Link margin="auto" className='link' href="https://drive.google.com/file/d/1g8hA5tckETl7pKa-3wExJ3S5Pzu_8QWF/view?usp=sharing" target='_blank'>
                         <span>Resume</span>
                         <div class="wave"></div>
                     </Link>
@@ -42,9 +42,8 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
             <Box>
                 <Image 
                     boxSize='300px'
-                    objectFit='cover'
                     borderRadius='20% 20% / 20% 20%'
-                    src="suraj-kokane.jpg" alt='Suraj Kokane' />
+                    src="Suraj_kokane.jpg" alt='Suraj Kokane' />
             </Box>
             <Box color='white' minW={300}>
                 <Text fontFamily='helvetica' className='textStyle' fontSize={20}>
@@ -56,7 +55,7 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                     A <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> based in India. A creative coder who specializes in MERN stack. I make it my mission to design pixel-perfect websites or applications with optimized code that run blazing fast.
                 </Text>
 
-                <Link margin="auto" className='link' href="https://drive.google.com/file/d/1Bb5zf65c9fqCU910wq0tZ2x0G1V5QkQ6/view?usp=sharing" target='_blank' >
+                <Link margin="auto" className='link' href="https://drive.google.com/file/d/1g8hA5tckETl7pKa-3wExJ3S5Pzu_8QWF/view?usp=sharing" target='_blank' >
                     <span>Resume</span>
                     <div class="wave"></div>
                 </Link>
