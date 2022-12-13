@@ -41,11 +41,16 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 }
                             )
                         }}>Contact</Box>
+                     { /*  <Box>
+
+                        <a href='https://drive.google.com/file/d/1g8hA5tckETl7pKa-3wExJ3S5Pzu_8QWF/view' download color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}>Resume</a>
+                        
+                    </Box>*/}
                 </SimpleGrid> 
                 </Center>
                 :
                 <Center height={60} pos='sticky' top='0' justifyContent='center' minW={300}>
-                <SimpleGrid columns={5} spacing={2} fontSize={15}>
+                <SimpleGrid columns={5} spacing={5} fontSize={15}>
                     <Box color='#C668FF' _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
                         onClick={() => {
                             aboutRef.current.scrollIntoView(
