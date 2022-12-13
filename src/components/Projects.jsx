@@ -27,7 +27,7 @@ export const Projects = ({ projectRef }) => {
                                 </Box>
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
-                                        <Text className="projectDescText">A front-end clone of sugar-cosmatic webpage developed by 1 members in time span of 6 days.
+                                        <Text className="projectDescText">Sugar Cosmatic - A front-end clone of sugar-cosmatic webpage developed by 1 members in time span of 6 days.
                                             We have added features like filter products, toggle product images, delete a product from cart, payment validation etc
                                         </Text>
                                     </Box>
@@ -60,7 +60,7 @@ export const Projects = ({ projectRef }) => {
                                 </Box>
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
-                                        <Text className="projectDescText">A front-end clone of WRDRB Shop Fashion webpage developed by 5 members in time span of 6 days.
+                                        <Text className="projectDescText">WRDRB Fashion Store - A front-end clone of WRDRB Shop Fashion webpage developed by 5 members in time span of 6 days.
                                             We have added features like filter products, toggle product images, delete a product from cart, payment validation etc
                                         </Text>
                                     </Box>
@@ -95,7 +95,7 @@ export const Projects = ({ projectRef }) => {
 
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
-                                        <Text className="projectDescText">A front-end clone of mailtrap webpage developed by 5 members in time span of 6 days.
+                                        <Text className="projectDescText">MailTrap - A front-end clone of mailtrap webpage developed by 5 members in time span of 6 days.
                                             We have added features like SignUp and Login,and dropdown menu,crauser part.
                                         </Text>
                                     </Box>
@@ -129,7 +129,7 @@ export const Projects = ({ projectRef }) => {
                                 </Box>
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
-                                        <Text className="projectDescText">A front-end clone of Mytheresa Fashion Store webpage developed by 1 members in time span of 6 days.
+                                        <Text className="projectDescText">Mytheresa Fashion Store - A front-end clone of Mytheresa Fashion Store webpage developed by 1 members in time span of 6 days.
                                             We have added features like filter products, toggle product images, delete a product from cart, payment validation etc
                                         </Text>
                                     </Box>
@@ -179,7 +179,7 @@ export const Projects = ({ projectRef }) => {
                                 </Box>
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
-                                        <Text className="projectDescText">A front-end clone of sugar-cosmatic webpage developed by 1 members in time span of 6 days.
+                                        <Text className="projectDescText">Sugar Cosmatic - A front-end clone of sugar-cosmatic webpage developed by 1 members in time span of 6 days.
                                             We have added features like filter products, toggle product images, delete a product from cart, payment validation etc
                                         </Text>
                                     </Box>
@@ -213,7 +213,7 @@ export const Projects = ({ projectRef }) => {
                                 </Box>
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
-                                        <Text className="projectDescText">A front-end clone of WRDRB Shop Fashion  webpage developed by 5 members in time span of 6 days.
+                                        <Text className="projectDescText">WRDRB Fashion Store - A front-end clone of WRDRB Shop Fashion  webpage developed by 5 members in time span of 6 days.
                                             We have added features like filter products, toggle product images, delete a product from cart, payment validation etc
                                         </Text>
                                     </Box>
@@ -248,7 +248,7 @@ export const Projects = ({ projectRef }) => {
 
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
-                                        <Text className="projectDescText">A front-end clone of mailtrap webpage developed by 5 members in time span of 6 days.
+                                        <Text className="projectDescText">MailTrap - A front-end clone of mailtrap webpage developed by 5 members in time span of 6 days.
                                             We have added features like SignUp and Login,and dropdown menu,crauser part.
                                         </Text>
                                     </Box>
@@ -282,7 +282,7 @@ export const Projects = ({ projectRef }) => {
                                 </Box>
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
-                                        <Text className="projectDescText">A front-end clone of Mytheresa Fashion Store webpage developed by 1 members in time span of 6 days.
+                                        <Text className="projectDescText">Mytheresa Fashion Store - A front-end clone of Mytheresa Fashion Store webpage developed by 1 members in time span of 6 days.
                                             We have added features like filter products, toggle product images, delete a product from cart, payment validation etc
                                         </Text>
                                     </Box>
