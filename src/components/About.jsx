@@ -51,7 +51,7 @@ export const AboutMe = ({ skillsRef, aboutRef }) => {
                     Hi I'm Suraj Kokane
                 </Text>
                 
-                <Text fontSize='14px' paddingLeft={15} paddingRight={15}>
+                <Text lineHeight={1.5} textAlign="justify" fontSize='14.5px' paddingLeft={15} paddingRight={15}>
                     A <strong style={{color:"#6889FF"}}>Full Stack Web Developer</strong> based in India. A creative coder who specializes in MERN stack. I make it my mission to design pixel-perfect websites or applications with optimized code that run blazing fast.
                 </Text>
 

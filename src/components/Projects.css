@@ -1,6 +1,6 @@
 .projectCard{
     min-width: 300px;
-    height: 425px;
+    height: auto;
     border-radius: 20px;
 }
 
@@ -76,4 +76,7 @@
 
 .git:hover{
     box-shadow: 0 0 8px #6889FF;
+}
+.gith{
+    margin: auto;
 }

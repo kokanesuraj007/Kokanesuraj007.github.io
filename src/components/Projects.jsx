@@ -25,9 +25,9 @@ export const Projects = ({ projectRef }) => {
                                 <Box borderRadius='20px'>
                                     <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="sugar_Cosmatic.png" alt="Sugar-Cosmatic" />
                                 </Box>
-                                <Box mt={-4} p={10} className="projectButton">
+                                <Box mt={4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
-                                        <Text className="projectDescText">Sugar Cosmatic - A front-end clone of sugar-cosmatic webpage developed by 1 members in time span of 6 days.
+                                        <Text className="projectDescText">Sugar Cosmatic clone - A front-end clone of sugar-cosmatic webpage developed by 1 members in time span of 6 days.
                                             We have added features like filter products, toggle product images, delete a product from cart, payment validation etc
                                         </Text>
                                     </Box>
@@ -368,23 +368,23 @@ export const Projects = ({ projectRef }) => {
                 <Center>
                     <Heading color='#6889FF' borderBottom='2px solid #C668FF' width={209} alignContent='center'>GitHub Calendar</Heading>
                 </Center>
-                <Center>
+                <Box className="gith">
 
                     <GitHubCalendar username="kokanesuraj007" />
 
-                </Center>
+                </Box>
 
                 <Center mt={60}>
                     <SimpleGrid columns={1} spacing={30}>
                         <Container className="projectC">
-                            <Box borderRadius='20px'>
-                                <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="https://github-readme-stats.vercel.app/api?username=kokanesuraj007&show_icons=true" alt="" />
+                            <Box className="gitk" borderRadius='20px'>
+                                <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="https://github-readme-stats.vercel.app/api?username=kokanesuraj007&show_icons=true" alt="" />
                             </Box>
                         </Container>
 
                         <Container className="projectC">
-                            <Box borderRadius='20px'>
-                                <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="https://github-readme-streak-stats.herokuapp.com/?user=kokanesuraj007" alt="" />
+                            <Box className="gitk" borderRadius='20px'>
+                                <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="https://github-readme-streak-stats.herokuapp.com/?user=kokanesuraj007" alt="" />
                             </Box>
                         </Container>
 
@@ -404,6 +404,7 @@ export const Projects = ({ projectRef }) => {
                     </SimpleGrid>
                 </Center>
             </Container>
+            
         }
         
         </>
