@@ -10,7 +10,6 @@ import "./Projects.css";
 export const Projects = ({ projectRef }) => {
     const [isLargerThan1200] = useMediaQuery('(min-width: 1200px)');
 
-
     return (
         <>
             {isLargerThan1200 ?
