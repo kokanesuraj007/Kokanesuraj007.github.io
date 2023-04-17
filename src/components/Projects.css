@@ -18,8 +18,9 @@
 }
 
 .projectDescBox{
-    width: 350px;
+    width: 310px;
     height: 80px;
+    margin: auto;
     background: none;
 }
 
@@ -58,7 +59,7 @@
 }
 
 .projectC{
-    min-width: 400px;
+    min-width: 310px;
     min-height: 215px;
     border-radius: 20px;
 }

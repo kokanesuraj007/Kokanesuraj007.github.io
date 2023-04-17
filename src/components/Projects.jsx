@@ -157,6 +157,75 @@ export const Projects = ({ projectRef }) => {
                             </Container>
 
 
+                            <Container className="projectCard">
+                            <Box borderRadius='20px'>
+                                <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="kfc_clone.png" alt="kfc-clone" />
+                            </Box>
+                            <Box mt={-4} p={10} className="projectButton">
+                                <Box className="projectDescBox">
+                                    <Text className="projectDescText">
+                                    KFC is a global chicken restaurant brand with a rich, decades-long history of success and innovation. It all started with one cook, Colonel Harland Sanders, who created a finger lickin' good recipe more than 75 years ago—a list of 11 secret herbs.
+                                    </Text>
+                                </Box>
+
+                                <Box display='flex' className="techStackBox" justifyContent='center'>
+                                    <Text className="techStack">React js</Text>
+                                    <Text className="techStack">Node js</Text>
+                                    <Text className="techStack">CSS</Text>
+                                </Box>
+
+                                <Box className="buttonBox">
+                                    <Link href="https://github.com/Nikras512/dramatic-road-5348" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8}
+                                        border='2px solid #C668FF' target='_blank'
+                                        _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
+                                    >Code
+                                    </Link>
+                                    <Link href="https://sage-flan-e5e2d6.netlify.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8}
+                                        border='2px solid #C668FF' target='_blank'
+                                        _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
+                                    >Website
+                                    </Link>
+
+                                </Box>
+                            </Box>
+                            {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
+                        </Container>
+
+
+                        <Container className="projectCard">
+                        <Box borderRadius='20px'>
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="Google_page.png" alt="google-Search" />
+                        </Box>
+                        <Box mt={-4} p={10} className="projectButton">
+                            <Box className="projectDescBox">
+                                <Text className="projectDescText">Google is an internet search engine. It uses a proprietary algorithm that's designed to retrieve and order search results to provide the most relevant and dependable sources of data possible. Advertisements.
+                                </Text>
+                            </Box>
+
+                            <Box display='flex' className="techStackBox" justifyContent='center'>
+                                <Text className="techStack">ReactJs</Text>
+                                <Text className="techStack">Javascript</Text>
+                                <Text className="techStack">CSS</Text>
+                            </Box>
+
+                            <Box className="buttonBox">
+                                <Link href="https://github.com/kokanesuraj007/google_search" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8}
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
+                                >Code
+                                </Link>
+                                <Link href="https://google-search-dev-suraj-kokane.netlify.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8}
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
+                                >Website
+                                </Link>
+
+                            </Box>
+                        </Box>
+                        {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
+                    </Container>
+
+
 
 
                         </SimpleGrid>
@@ -174,7 +243,7 @@ export const Projects = ({ projectRef }) => {
                         <SimpleGrid columns={1} spacing={30}>
                             <Container className="projectCard">
                                 <Box borderRadius='20px'>
-                                    <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="sugar_Cosmatic.png" alt="Sugar-Cosmatic" />
+                                    <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="sugar_Cosmatic.png" alt="Sugar-Cosmatic" />
                                 </Box>
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
@@ -208,7 +277,7 @@ export const Projects = ({ projectRef }) => {
 
                             <Container className="projectCard">
                                 <Box borderRadius='20px'>
-                                    <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="wrdrb.png" alt="wrdrb" />
+                                    <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="wrdrb.png" alt="wrdrb" />
                                 </Box>
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
@@ -242,7 +311,7 @@ export const Projects = ({ projectRef }) => {
 
                             <Container className="projectCard">
                                 <Box borderRadius='20px'>
-                                    <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="mailtrap.png" alt="mailtrp-project" />
+                                    <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="mailtrap.png" alt="mailtrp-project" />
                                 </Box>
 
                                 <Box mt={-4} p={10} className="projectButton">
@@ -277,7 +346,7 @@ export const Projects = ({ projectRef }) => {
 
                             <Container className="projectCard">
                                 <Box borderRadius='20px'>
-                                    <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="myth.png" alt="Sugar-Cosmatic" />
+                                    <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="myth.png" alt="Sugar-Cosmatic" />
                                 </Box>
                                 <Box mt={-4} p={10} className="projectButton">
                                     <Box className="projectDescBox">
@@ -307,7 +376,76 @@ export const Projects = ({ projectRef }) => {
                                     </Box>
                                 </Box>
                                 {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
-                            </Container>
+                            </Container>   
+
+                            <Container className="projectCard">
+                            <Box borderRadius='20px'>
+                                <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="kfc_clone.png" alt="kfc-clone" />
+                            </Box>
+                            <Box mt={-4} p={10} className="projectButton">
+                                <Box className="projectDescBox">
+                                    <Text className="projectDescText">
+                                    KFC is a global chicken restaurant brand with a rich, decades-long history of success and innovation. It all started with one cook, Colonel Harland Sanders, who created a finger lickin' good recipe more than 75 years ago—a list of 11 secret herbs.
+                                    </Text>
+                                </Box>
+
+                                <Box display='flex' className="techStackBox" justifyContent='center'>
+                                    <Text className="techStack">React js</Text>
+                                    <Text className="techStack">Node js</Text>
+                                    <Text className="techStack">CSS</Text>
+                                </Box>
+
+                                <Box className="buttonBox">
+                                    <Link href="https://github.com/Nikras512/dramatic-road-5348" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8}
+                                        border='2px solid #C668FF' target='_blank'
+                                        _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
+                                    >Code
+                                    </Link>
+                                    <Link href="https://sage-flan-e5e2d6.netlify.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8}
+                                        border='2px solid #C668FF' target='_blank'
+                                        _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
+                                    >Website
+                                    </Link>
+
+                                </Box>
+                            </Box>
+                            {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
+                        </Container>
+
+
+                        <Container className="projectCard">
+                        <Box borderRadius='20px'>
+                            <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="Google_page.png" alt="google-Search" />
+                        </Box>
+                        <Box mt={-4} p={10} className="projectButton">
+                            <Box className="projectDescBox">
+                                <Text className="projectDescText">Google is an internet search engine. It uses a proprietary algorithm that's designed to retrieve and order search results to provide the most relevant and dependable sources of data possible. Advertisements.
+                                </Text>
+                            </Box>
+
+                            <Box display='flex' className="techStackBox" justifyContent='center'>
+                                <Text className="techStack">ReactJs</Text>
+                                <Text className="techStack">Javascript</Text>
+                                <Text className="techStack">CSS</Text>
+                            </Box>
+
+                            <Box className="buttonBox">
+                                <Link href="https://github.com/kokanesuraj007/google_search" textDecoration='none' fontSize='14px' ml={20} color='#C668FF' p={8}
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
+                                >Code
+                                </Link>
+                                <Link href="https://google-search-dev-suraj-kokane.netlify.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8}
+                                    border='2px solid #C668FF' target='_blank'
+                                    _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
+                                >Website
+                                </Link>
+
+                            </Box>
+                        </Box>
+                        {/* {showVideoOne ? <DemoVideoOne closeDemoVideoOne={closeDemoVideoOne} /> : null} */}
+                    </Container>
+
 
                         </SimpleGrid>
                     </Center>
@@ -377,13 +515,13 @@ export const Projects = ({ projectRef }) => {
                     <SimpleGrid columns={1} spacing={30}>
                         <Container className="projectC">
                             <Box className="gitk" borderRadius='20px'>
-                                <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="https://github-readme-stats.vercel.app/api?username=kokanesuraj007&show_icons=true" alt="" />
+                                <Image borderRadius='20px 20px 0px 0px' minW={80} height={150} src="https://github-readme-stats.vercel.app/api?username=kokanesuraj007&show_icons=true" alt="" />
                             </Box>
                         </Container>
 
                         <Container className="projectC">
                             <Box className="gitk" borderRadius='20px'>
-                                <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="https://github-readme-streak-stats.herokuapp.com/?user=kokanesuraj007" alt="" />
+                                <Image borderRadius='20px 20px 0px 0px' minW={50} height={150} src="https://github-readme-streak-stats.herokuapp.com/?user=kokanesuraj007" alt="" />
                             </Box>
                         </Container>
 
