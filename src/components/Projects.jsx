@@ -194,7 +194,7 @@ export const Projects = ({ projectRef }) => {
 
                         <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="Google_page.png" alt="google-Search" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="e_page.png" alt="google-Search" />
                         </Box>
                         <Box mt={-4} p={10} className="projectButton">
                             <Box className="projectDescBox">
@@ -415,7 +415,7 @@ export const Projects = ({ projectRef }) => {
 
                         <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="Google_page.png" alt="google-Search" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="e_page.png" alt="google-Search" />
                         </Box>
                         <Box mt={-4} p={10} className="projectButton">
                             <Box className="projectDescBox">
