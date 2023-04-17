@@ -194,7 +194,7 @@ export const Projects = ({ projectRef }) => {
 
                         <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="prok.png" alt="g" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="https://drive.google.com/file/d/1DSY7AwqyjAYOWuITO9DNjViHY9cYMsXE/view?usp=sharing" alt="g" />
                         </Box>
                         <Box mt={-4} p={10} className="projectButton">
                             <Box className="projectDescBox">
@@ -415,7 +415,7 @@ export const Projects = ({ projectRef }) => {
 
                         <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="prok.png" alt="g" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={100} height={150} src="https://drive.google.com/file/d/1DSY7AwqyjAYOWuITO9DNjViHY9cYMsXE/view?usp=sharing" alt="g" />
                         </Box>
                         <Box mt={-4} p={10} className="projectButton">
                             <Box className="projectDescBox">
