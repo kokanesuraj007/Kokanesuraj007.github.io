@@ -180,7 +180,7 @@ export const Projects = ({ projectRef }) => {
                                         _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
                                     >Code
                                     </Link>
-                                    <Link href="https://sage-flan-e5e2d6.netlify.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8}
+                                    <Link href="https://creative-marzipan-38c236.netlify.app/" textDecoration='none' fontSize='14px' minW='100px' ml={10} color='#C668FF' p={8}
                                         border='2px solid #C668FF' target='_blank'
                                         _hover={{ cursor: 'pointer', background: '#C668FF', color: 'black' }}
                                     >Website
@@ -194,7 +194,7 @@ export const Projects = ({ projectRef }) => {
 
                         <Container className="projectCard">
                         <Box borderRadius='20px'>
-                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="https://drive.google.com/file/d/1DSY7AwqyjAYOWuITO9DNjViHY9cYMsXE/view?usp=sharing" alt="g" />
+                            <Image borderRadius='20px 20px 0px 0px' minW={300} height={200} src="Google_Page.png" alt="g" />
                         </Box>
                         <Box mt={-4} p={10} className="projectButton">
                             <Box className="projectDescBox">
