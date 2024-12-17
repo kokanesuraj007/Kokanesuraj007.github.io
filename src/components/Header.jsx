@@ -43,7 +43,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 )
                             }}>Contact</Box>
                         <Box _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
-                        ><a className='down' href="./Suraj_ Kokane_Resume.pdf" download>Resume</a></Box>
+                        ><a className='down' href="./Suraj_kokane_resume.pdf" download>Resume</a></Box>
 
 
                     </SimpleGrid>
@@ -85,7 +85,7 @@ export const Header = ({ aboutRef, skillsRef, projectRef, blogRef, contactRef })
                                 )
                             }}>Contact</Box>
                         <Box _hover={{ cursor: 'pointer', borderBottom: '2px solid #6889FF' }}
-                        ><a className='down' href="./Suraj_ Kokane_Resume_.pdf" download>Resume</a></Box>
+                        ><a className='down' href="./Suraj_kokane_resume" download>Resume</a></Box>
                     </SimpleGrid>
                 </Center>
             }
